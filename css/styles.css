@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;    
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.flexbox-item{
+    width:100%;
+    margin: 0px;
+}
+
+.flexbox-item-1{
+    background-color: black;
+    height: 75px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color:white;
+    width: 75%;
+    margin-left: 75px;
+}
+h3{
+    width: 25%;
+}
+
+nav li{
+    display: inline;
+    padding-left:50px;
+    font-size: 12px;
+    font-family: roboto;
+}
+
+
+.flexbox-item-2{
+    height: 35%;
+    background-image: url("../images/theater-image-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item-2 h1{
+    color: white;
+    font-size: 100px;
+    font-family: Times;
+}
+
+.flexbox-item-3{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 40%;
+}
+
+.sub-box1{
+    height:100%;
+    width:50%;
+}
+
+.sub-box2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 5px;
+}
+
+.sub-box2-title{
+    height: 15%;
+    width: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sub-box2-title h4{
+    align-self: flex-end;
+    background-color: lightgrey;
+    width: 100%;
+    border: 1px solid darkgrey;
+    padding-left:30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* font-size: 20px; */
+}
+
+.sub-image{
+    height: 90%;
+    width: 30%; 
+    background-image: url("../images/always_be_closing.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.sub-text{
+    justify-content: space;
+    width: 40%;
+    margin-left: -30px;    
+}
+
+
+.sub-text p{
+    align-self: flex-start;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+#play_name{
+    font-size: 15px;
+}
+
+.sub-button{
+    height: 35px;
+    width: 90px;
+    border-radius: 2px;
+    background-color: red;
+    align-self: center;
+}
+
+#read_more{
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 38px;
+    background-color: #F7C548;
+}
+
+.flexbox-item-4{
+    background-color: black;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-box{
+    height: 300px;
+    width: 25%;
+}
+
+.col-box h4{
+    font-family: roboto;
+    color:white;
+    font-size: 30px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.col-box p{
+    font-size: 10px;
+    margin-bottom: 0%;
+    font-family: roboto;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    opacity: 0.65;
+    
+}
+.col-box img{
+    margin-top:18%; 
+    height: 140px;
+    width: 200px
+}
+
+#icons{
+    height: 25px; 
+    width: 25px;
+    margin-bottom: -10px;
+
+}
+
+#icon_links{
+    font-size: 10px;
+}
+
+.break{
+    height: 40px;
+}
